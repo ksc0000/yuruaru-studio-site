@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yuruaru Studioは、ITや日常のあるあるをゆるい動物スタンプで届ける制作室です。">
+  <title>Yuruaru Studio｜ゆるある制作室</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./">Yuruaru Studio</a>
+    <nav><a href="#about">About</a><a href="#stickers">Stickers</a><a href="#news">News</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">ゆるく、ちょっとクセあり。</p>
+        <h1>あるあるを、<br>動物たちのひとことに。</h1>
+        <p>Yuruaru Studioは、IT・仕事・日常の「わかる」を、ゆるいキャラクターと短い言葉で届けるスタンプ制作室です。</p>
+        <a class="button" href="#stickers">第一弾を見る</a>
+      </div>
+      <div class="hero-art"><img src="../assets/submission/main.png" alt="なましす 解決した！たぶん！"></div>
+    </section>
+
+    <section id="about" class="section about">
+      <p class="eyebrow">About Yuruaru Studio</p>
+      <h2>共感できる、<br>使いやすいひとこと。</h2>
+      <p>仕事仲間との雑談にも、友人との会話にも。疲れた日、うまくいかない日、ちょっとだけツッコミたい日に使える表現をつくっています。</p>
+    </section>
+
+    <section id="stickers" class="section">
+      <div class="section-heading"><div><p class="eyebrow">First release</p><h2>限界なまけ情シスの日常</h2></div><span class="status">審査中</span></div>
+      <p class="lead">問い合わせ対応に追われるナマケモノ情シス「なましす」。再起動、デバッグ、コンフリクト、今日も彼は疲弊に揉まれ、それでもなんとか生きている。</p>
+      <div class="sticker-grid">
+        <script>
+          const names = ['otsukaresama','ohayou-limit','restart-question','restart','where','reproduction-steps','screenshot','not-reproduce','local','conflict','logs','stop-production','excel-spec','excel-shock','ai-not-that','ai-check','no-access','secret','research','checking','in-progress','yesterday','busy','resolved'];
+          names.forEach((name, index) => document.write(`<figure><img src="../assets/submission/line-stickers/${String(index + 1).padStart(2, '0')}.png" alt="なましす No.${index + 1}"><figcaption>No.${String(index + 1).padStart(2, '0')}</figcaption></figure>`));
+        </script>
+      </div>
+    </section>
+
+    <section id="news" class="section next">
+      <p class="eyebrow">Coming next</p>
+      <h2>第二弾を企画中です。</h2>
+      <p>なましすの次なる「あるある」を、ただいま準備中。新作のお知らせは販売開始後に更新します。</p>
+    </section>
+  </main>
+
+  <footer><span>© Yuruaru Studio</span><a href="https://github.com/ksc0000/line-stamp-it">制作リポジトリ ↗</a></footer>
+</body>
+</html>

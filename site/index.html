@@ -10,7 +10,7 @@
 <body>
   <header class="site-header">
     <a class="brand" href="./">Yuruaru Studio</a>
-    <nav><a href="#about">About</a><a href="#stickers">Stickers</a><a href="#news">News</a></nav>
+    <nav><a href="#about">About</a><a href="#stickers">Stickers</a><a href="#vol2">Vol.2</a><a href="#news">News</a></nav>
   </header>
 
   <main>
@@ -19,7 +19,7 @@
         <p class="eyebrow">ゆるく、ちょっとクセあり。</p>
         <h1>あるあるを、<br>動物たちのひとことに。</h1>
         <p>Yuruaru Studioは、IT・仕事・日常の「わかる」を、ゆるいキャラクターと短い言葉で届けるスタンプ制作室です。</p>
-        <a class="button" href="#stickers">第一弾を見る</a>
+        <a class="button" href="#stickers">作品を見る</a>
       </div>
       <div class="hero-art"><img src="assets/submission/main.png" alt="なましす 解決した！たぶん！"></div>
     </section>
@@ -31,7 +31,7 @@
     </section>
 
     <section id="stickers" class="section">
-      <div class="section-heading"><div><p class="eyebrow">First release</p><h2>限界なまけ情シスの日常</h2></div><span class="status">審査中</span></div>
+      <div class="section-heading"><div><p class="eyebrow">First release</p><h2>限界なまけ情シスの日常</h2></div><span class="status">差し替え準備中</span></div>
       <p class="lead">問い合わせ対応に追われるナマケモノ情シス「なましす」。再起動、デバッグ、コンフリクト、今日も彼は疲弊に揉まれ、それでもなんとか生きている。</p>
       <div class="sticker-grid">
         <script>
@@ -41,10 +41,20 @@
       </div>
     </section>
 
+    <section id="vol2" class="section">
+      <div class="section-heading"><div><p class="eyebrow">Second release</p><h2>限界なまけ情シスの日常2</h2></div><span class="status">審査中</span></div>
+      <p class="lead">問い合わせ、会議、引き継ぎ、リリース、障害対応に追われるなましす。今日もなんとか対応中です。</p>
+      <div class="sticker-grid">
+        <script>
+          for (let index = 1; index <= 24; index++) document.write(`<figure><img src="assets/submission/vol2-line-stickers/${String(index).padStart(2, '0')}.png" alt="なましす 第二弾 No.${index}"><figcaption>No.${String(index).padStart(2, '0')}</figcaption></figure>`);
+        </script>
+      </div>
+    </section>
+
     <section id="news" class="section next">
       <p class="eyebrow">Coming next</p>
-      <h2>第二弾を企画中です。</h2>
-      <p>なましすの次なる「あるある」を、ただいま準備中。新作のお知らせは販売開始後に更新します。</p>
+      <h2>第一弾は差し替え準備中、第二弾は審査中です。</h2>
+      <p>販売開始が決まり次第、各スタンプの購入リンクを追加します。次の「あるある」も準備中です。</p>
     </section>
   </main>
 

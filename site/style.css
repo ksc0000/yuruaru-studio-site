@@ -6,13 +6,13 @@ a { color:inherit; text-decoration:none; }
 .site-header { max-width:1120px; margin:auto; padding:24px 28px; display:flex; justify-content:space-between; align-items:center; }
 .brand { font-weight:800; letter-spacing:.04em; }
 nav { display:flex; gap:24px; color:var(--muted); font-size:.9rem; }
-.hero { max-width:1120px; min-height:540px; margin:auto; padding:72px 28px 96px; display:grid; grid-template-columns:1fr 360px; gap:80px; align-items:center; }
+.hero { max-width:1120px; min-height:540px; margin:auto; padding:72px 28px 96px; display:grid; grid-template-columns:.85fr 1.35fr; gap:54px; align-items:center; }
 .hero-copy h1 { margin:10px 0 20px; font-size:clamp(2.5rem,6vw,5rem); line-height:1.2; letter-spacing:-.06em; }
 .hero-copy > p:not(.eyebrow) { max-width:580px; color:var(--muted); }
 .eyebrow { margin:0; color:var(--orange); font-size:.78rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
 .button { display:inline-block; margin-top:18px; padding:10px 20px; border-radius:99px; color:white; background:var(--ink); font-weight:700; }
-.hero-art { display:flex; justify-content:center; padding:26px; border-radius:48% 52% 45% 55%; background:#f7dfc1; }
-.hero-art img { width:100%; max-width:270px; }
+.hero-art { display:flex; justify-content:center; padding:14px; border-radius:32px; background:#f7dfc1; overflow:hidden; }
+.hero-art img { display:block; width:100%; max-width:620px; }
 .section { max-width:1120px; margin:auto; padding:90px 28px; border-top:1px solid var(--line); }
 .about { max-width:760px; margin-left:max(28px,calc((100% - 1120px)/2)); }
 h2 { margin:8px 0 16px; font-size:clamp(1.9rem,4vw,3.3rem); line-height:1.3; letter-spacing:-.04em; }
